@@ -81,6 +81,19 @@ The following items should be installed in your system:
 
     Visit [http://localhost:8080](http://localhost:8080) in your browser.
 
+## Using docker-compose to orchestrate spring app and DB containers
+
+Create a .env file in root path of this project containing the enviroment variables used in docker-compose.yml. More details about .env in [Declare default environment variables in file
+](https://docs.docker.com/compose/env-file/
+) and [Environment variables in Compose](https://docs.docker.com/compose/environment-variables/
+)  
+
+After you have created the .env file execute the command:
+
+```
+./docker-compose up --build
+```
+
 
 ## Looking for something in particular?
 
